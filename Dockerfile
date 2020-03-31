@@ -1,4 +1,4 @@
-FROM circleci/ruby:2.4.1-node-browsers
+FROM circleci/ruby:2.6.5-node-browsers
 
 WORKDIR /home/circleci
 RUN curl -L -o ./install-misspell.sh https://git.io/misspell
